@@ -37,7 +37,7 @@ if you want a SetupEntryPoint to install python for you you could do this:
 ```
 <SetupEntryPoint>
   <ExeHost>
-    <Program>Setup\setup.bat</Program>
+    <Program>setup.bat</Program>
     <WorkingFolder>CodePackage</WorkingFolder>
   </ExeHost>
 </SetupEntryPoint>
@@ -51,8 +51,8 @@ MyGuestExecutablePkg\
         - run.cmd
         - my.py
         - setup.cmd
-        - ....
-    - Config\
+        - python-3.6.5.exe
+   - Config\
         - Settings.xml
     - ServiceManifest.xml
 ApplicationManifest.xml

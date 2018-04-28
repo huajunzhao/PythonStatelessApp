@@ -17,9 +17,10 @@ use that as your EntryPoint.
 
 What things you need to install the software and how to install them
 
-Python 3.6.5
+1. Download the Python 3.6.5 for Windows from https://www.python.org/downloads/windows/
+2. Copy the python-3.6.5.exe, my.py, run.cmd, setup.cmd to C:\temp
 
-your EntryPoint in ServiceManifest.xml looks like this:
+Your EntryPoint in ServiceManifest.xml looks like this:
 ```
 <EntryPoint>
         <ExeHost>
